@@ -1,0 +1,14 @@
+.offerContainer {
+  min-height: 500px;
+  background-color: var(--color-gray-3);
+}
+.ourOfferTitle {
+    padding: 20px;
+  margin: 0;
+  color: var(--color-white);
+}
+.ourOffersContainer{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

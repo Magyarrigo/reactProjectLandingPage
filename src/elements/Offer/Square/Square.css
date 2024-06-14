@@ -1,0 +1,38 @@
+.square {
+  display: flex;
+  width: 20%;
+  min-height: 200px;
+  background-color: var(--color-gray-1);
+  color: var(--color-red);
+  margin: 5%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.square:hover {
+  
+  transform: scale(1.05);
+}
+.squareNew {
+  position: relative;
+}
+
+.squareNew::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-red);
+  position: absolute;
+  left: 0;
+  top: -20px;
+  transform: translateX(-50%) translateY(50%);
+  border-radius: 50%;
+}
+.addNew {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

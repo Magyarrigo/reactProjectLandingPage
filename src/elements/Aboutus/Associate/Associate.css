@@ -1,0 +1,9 @@
+.associateData {
+  width: 80%;
+  display: block;
+}
+.associateDataTitle {
+  display: flex;
+  gap: 8px;
+  width: 45%;
+}

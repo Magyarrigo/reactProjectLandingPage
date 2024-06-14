@@ -1,0 +1,35 @@
+.pageHeaderLogo {
+  font-size: 35px;
+  line-height: 47px;
+  padding: 10px 20px;
+}
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.logoIcon,
+.logoTextFirst,
+.logoTextSecond {
+  display: block;
+}
+.logoIcon {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-image: url("./swan.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.logoTextFirst {
+  margin-left: 10px;
+  color: var(--color-red);
+  font-weight: 400;
+  font-size: medium;
+}
+.logoTextSecond {
+  margin-left: 5px;
+  color: var(--color-white);
+  font-weight: 200;
+  font-size: medium;
+}

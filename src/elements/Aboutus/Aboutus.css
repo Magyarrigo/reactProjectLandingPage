@@ -1,0 +1,13 @@
+.aboutUs {
+  min-height: 200px;
+  background-color: var(--color-gray-4);
+}
+.associateField {
+  display: flex;
+  min-height: 250px;
+  align-items: center;
+  justify-content: space-around;
+}
+.associateField:nth-child(even) {
+  flex-direction: row-reverse;
+}

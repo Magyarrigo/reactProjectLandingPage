@@ -1,0 +1,13 @@
+.header {
+  height: 70px;
+  background-color: var(--color-gray-2);
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.headerNav {
+  display: flex;
+}
