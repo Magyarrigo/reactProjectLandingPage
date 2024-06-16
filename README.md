@@ -2,7 +2,9 @@ React - Projekt 1
 
 Poprawnie stworzony projekt musi posiadać:
 link do repo na GitHubie (Jak stworzyć własne repo na GitHubie?)
+https://github.com/Magyarrigo/reactProjectLandingPage.git
 link do dzialajacej strony na Netlify (Jak deploynąć kod z GitHuba na Netlify?)
+https://reactprojectlandingpage.netlify.app/
 mieć kod sformatowany z użyciem formatera Prettier (VSCode plug-in)
 
 Twoim zadaniem będzie przerobienie pierwszego projektu zaliczeniowego z części HTML & CSS na Reacta.
