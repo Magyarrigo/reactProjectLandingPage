@@ -29,11 +29,11 @@ const offerArray = [
   },
   {
     offerName: "New Car rental",
-    isNew: "true",
+    isNew: true,
   },
   {
     offerName: "satelite",
-    isNew: "true",
+    isNew: true,
   },
 ];
 
