@@ -1,4 +1,4 @@
-import Aboutus from "./elements/Aboutus/Aboutus";
+import AboutUs from "./elements/AboutUs/AboutUs";
 import Footer from "./elements/Footer/Footer";
 import Header from "./elements/Header/Header";
 import Offer from "./elements/Offer/Offer";
@@ -16,7 +16,7 @@ function App() {
         description={description}
         buttonText="oferta"
       />
-      <Aboutus />
+      <AboutUs />
       <Offer offerTitle={offerTitle} />
       <Footer />
     </>

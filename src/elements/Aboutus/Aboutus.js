@@ -1,9 +1,9 @@
-import "./Aboutus.css";
+import "./AboutUs.css";
 import Container from "../Container/Container";
 import Associate from "./Associate/Associate";
 import Photo from "./Photo/Photo";
 
-function Aboutus() {
+function AboutUs() {
   return (
     <div id="aboutUs" className="aboutUs">
       <Container>
@@ -44,4 +44,4 @@ function Aboutus() {
   );
 }
 
-export default Aboutus;
+export default AboutUs;
