@@ -3,7 +3,7 @@ import "./ContactLink.css";
 function ContactLink({ text }) {
   return (
     <li className="navElement">
-      <a className="navLink contactButton" href="#contact">
+      <a className="navLink contactButton" id="contact" href="#contact">
         {text}
       </a>
     </li>

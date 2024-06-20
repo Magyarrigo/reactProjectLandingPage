@@ -6,7 +6,7 @@ import Container from "../Container/Container";
 
 function Footer() {
   return (
-    <footer className="footer" id="contact">
+    <footer className="footer">
       <Container>
         <div className="footerContainer">
           <div className="logoAtFooterContainer">
