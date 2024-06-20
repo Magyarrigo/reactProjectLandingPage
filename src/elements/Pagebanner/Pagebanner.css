@@ -53,9 +53,9 @@
   color: var(--color-white);
   justify-content: center;
   box-shadow: 0 3px 6px var(--color-red-opacity-1);
+  transition: 2s;
 }
 .pageBannerLink:hover {
-  transition: 2s;
   background-color: var(--color-white);
   color: var(--color-red);
 }
