@@ -1,5 +1,6 @@
 import "./Header.css";
 import Link from "../Link/Link";
+import ContactLink from "../ContactLink/ContaktLink";
 import Container from "../Container/Container";
 import Logo from "../Logo/Logo";
 
@@ -13,7 +14,7 @@ function Header() {
             <ul className="headerNav">
               <Link id="#aboutUs" text="o nas" />
               <Link id="#ourOffer" text="oferta" />
-              <Link id="#contact" text="kontakt" />
+              <ContactLink text="kontakt" />
             </ul>
           </nav>
         </div>
