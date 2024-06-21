@@ -1,6 +1,6 @@
 import "./Offer.css";
 import Container from "../Container/Container";
-import Square from "./Square/Square";
+import OfferItem from "./OfferItem/OfferItem";
 
 const offers = [
   {
@@ -45,7 +45,7 @@ function Offer({ offerTitle }) {
         <div className="ourOffersContainer">
           {offers.map(function (item, index) {
             return (
-              <Square
+              <OfferItem
                 offerName={item.offerName}
                 isNew={item.isNew}
                 key={index}

@@ -1,6 +1,6 @@
-import "./Square.css";
+import "./OfferItem.css";
 
-function Square({ offerName, isNew }) {
+function OfferItem({ offerName, isNew }) {
   if (isNew) {
     return (
       <div className="square squareNew">
@@ -18,4 +18,4 @@ function Square({ offerName, isNew }) {
   );
 }
 
-export default Square;
+export default OfferItem;
