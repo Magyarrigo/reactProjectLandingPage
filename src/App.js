@@ -2,7 +2,6 @@ import AboutUs from "./elements/AboutUs/AboutUs";
 import Footer from "./elements/Footer/Footer";
 import Header from "./elements/Header/Header";
 import Offer from "./elements/Offer/Offer";
-import PageBanner from "./elements/Pagebanner/Pagebanner";
 
 function App() {
   const pageTitle = "Nasza firma oferuje najwyższej jakości produkty";
@@ -11,11 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <PageBanner
-        title={pageTitle}
-        description={description}
-        buttonText="oferta"
-      />
+
       <AboutUs />
       <Offer offerTitle={offerTitle} />
       <Footer />
