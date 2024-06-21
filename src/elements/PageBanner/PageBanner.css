@@ -1,0 +1,61 @@
+.pageContainer {
+  height: calc(100vh - 70px);
+  background-image: url(./Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pageContainer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-black);
+  opacity: 0.3;
+}
+.pageBanner {
+  flex-grow: 1;
+  position: relative;
+  color: var(--color-white);
+  text-align: start;
+  display: flex;
+}
+.pageBanner > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.pageBannerTitle {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
+.pageBannerDescription {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.pageBannerLink {
+  display: inline-block;
+  width: 60px;
+  margin-top: 54px;
+  padding: 22px 55px;
+  border-radius: 1000px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: lowercase;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  justify-content: center;
+  box-shadow: 0 3px 6px var(--color-red-opacity-1);
+  transition: 2s;
+}
+.pageBannerLink:hover {
+  background-color: var(--color-white);
+  color: var(--color-red);
+}
