@@ -33,7 +33,7 @@ function AboutUs() {
           />
         </div>
         <div className="associateField">
-          <Photo image="associate-3.gif" />
+          <Photo image="associate-3.jpg" />
           <Associate
             name="Kamil"
             lastName="Dodatkowy"
