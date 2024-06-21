@@ -2,7 +2,7 @@ import "./Offer.css";
 import Container from "../Container/Container";
 import Square from "./Square/Square";
 
-const offerArray = [
+const offers = [
   {
     offerName: "audi 4x4",
     isNew: false,
@@ -43,7 +43,7 @@ function Offer({ offerTitle }) {
       <Container>
         <h1 className="ourOfferTitle">{offerTitle}</h1>
         <div className="ourOffersContainer">
-          {offerArray.map(function (item, index) {
+          {offers.map(function (item, index) {
             return (
               <Square
                 offerName={item.offerName}

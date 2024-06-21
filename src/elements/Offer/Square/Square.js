@@ -5,15 +5,15 @@ function Square({ offerName, isNew }) {
     return (
       <div className="square squareNew">
         <div className="addNew">
-          <h2>{offerName}</h2>
-          <h4>(nowosc)</h4>
+          <p className="offerItemTitle">{offerName}</p>
+          <p className="offerItemIndex">(nowosc)</p>
         </div>
       </div>
     );
   }
   return (
     <div className="square">
-      <h2>{offerName}</h2>
+      <p className="offerItemTitle">{offerName}</p>
     </div>
   );
 }

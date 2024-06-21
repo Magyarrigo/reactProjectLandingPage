@@ -10,7 +10,6 @@
   transition: 0.5s;
 }
 .square:hover {
-  
   transform: scale(1.05);
 }
 .squareNew {
@@ -35,4 +34,10 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+}
+.offerItemTitle {
+  font-size: 24px;
+}
+.offerItemIndex {
+  font-size: 16px;
 }
