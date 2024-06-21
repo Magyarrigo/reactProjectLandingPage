@@ -9,7 +9,7 @@ function AboutUs() {
       <Container>
         <h1 className="aboutUsTitle">Nasi Specjaliści</h1>
         <div className="associateField">
-          <Photo image="associate-2.gif" />
+          <Photo image="associate-2.jpg" />
           <Associate
             name="Angelika"
             lastName="Podmuch"
@@ -17,7 +17,7 @@ function AboutUs() {
           />
         </div>
         <div className="associateField">
-          <Photo image="associate-1.gif" />
+          <Photo image="associate-1.jpg" />
           <Associate
             name="Marta"
             lastName="Podsiadlo"
