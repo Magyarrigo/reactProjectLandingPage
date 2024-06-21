@@ -1,8 +1,8 @@
 import "./Header.css";
-import Link from "../Link/Link";
-import ContactLink from "../ContactLink/ContaktLink";
 import Container from "../Container/Container";
+import ContactLink from "./ContactLink/ContactLink";
 import Logo from "../Logo/Logo";
+import Link from "./Link/Link";
 
 function Header() {
   return (
