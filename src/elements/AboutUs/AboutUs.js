@@ -7,6 +7,7 @@ function AboutUs() {
   return (
     <div id="aboutUs" className="aboutUs">
       <Container>
+        <h1 className="aboutUsTitle">Nasi Specjaliści</h1>
         <div className="associateField">
           <Photo image="associate-2.gif" />
           <Associate

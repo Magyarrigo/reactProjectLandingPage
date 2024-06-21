@@ -4,35 +4,35 @@ import Square from "./Square/Square";
 
 const offerArray = [
   {
-    offerName: "Offer one",
+    offerName: "audi 4x4",
     isNew: false,
   },
   {
-    offerName: "Offer two",
+    offerName: "BMW",
     isNew: false,
   },
   {
-    offerName: "Offer three",
+    offerName: "kia",
     isNew: true,
   },
   {
-    offerName: "Offer four",
+    offerName: "toyota",
     isNew: false,
   },
   {
-    offerName: "Offer five",
+    offerName: "subaru",
     isNew: false,
   },
   {
-    offerName: "Offer six",
+    offerName: "tesla",
     isNew: true,
   },
   {
-    offerName: "New Car rental",
+    offerName: "new cars",
     isNew: true,
   },
   {
-    offerName: "satelite",
+    offerName: "FIAT",
     isNew: true,
   },
 ];
