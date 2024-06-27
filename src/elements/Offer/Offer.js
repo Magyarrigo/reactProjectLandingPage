@@ -7,7 +7,7 @@ function Offer({ offerTitle }) {
   return (
     <section className="offerContainer" id="ourOffer">
       <Container>
-        <h1 className="ourOfferTitle">{offerTitle}</h1>
+        <h2 className="ourOfferTitle">{offerTitle}</h2>
         <div className="ourOffersContainer">
           {offers.map(function (item, index) {
             return (

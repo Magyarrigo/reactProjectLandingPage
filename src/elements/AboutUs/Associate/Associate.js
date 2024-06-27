@@ -3,9 +3,9 @@ import "./Associate.css";
 function Associate({ name, lastName, department }) {
   return (
     <div className="associateData">
-      <h2 className="associateDataTiltle">
+      <h3 className="associateDataTiltle">
         {name} {lastName} {department}
-      </h2>
+      </h3>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa
