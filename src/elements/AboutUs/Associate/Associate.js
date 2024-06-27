@@ -3,10 +3,10 @@ import "./Associate.css";
 function Associate({ name, lastName, department }) {
   return (
     <div className="associateData">
-      <div className="associateDataTitle">
-        <h2>{name} {lastName} {department}</h2>
-        
-      </div>
+      <h2 className="associateDataTiltle">
+        {name} {lastName} {department}
+      </h2>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa
         et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id
