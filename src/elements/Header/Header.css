@@ -10,4 +10,5 @@
 }
 .headerNav {
   display: flex;
+  align-items: center;
 }

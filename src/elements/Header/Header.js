@@ -6,8 +6,8 @@ import Link from "./Link/Link";
 
 function Header() {
   return (
-    <header className="header">
-      <Container>
+    <Container>
+      <header className="header">
         <div className="headerContainer">
           <Logo textFirst="moja" textSecond="firma" />
           <nav>
@@ -18,8 +18,8 @@ function Header() {
             </ul>
           </nav>
         </div>
-      </Container>
-    </header>
+      </header>
+    </Container>
   );
 }
 export default Header;
