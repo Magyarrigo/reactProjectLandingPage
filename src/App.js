@@ -9,7 +9,7 @@ function App() {
   const description = "Nie wierz nam na słowo - sprawdź";
   const offerTitle = "Czym zajmuje się nasza Firma?";
   return (
-    <>
+    <main>
       <Header />
       <PageBanner
         title={pageTitle}
@@ -19,7 +19,7 @@ function App() {
       <AboutUs />
       <Offer offerTitle={offerTitle} />
       <Footer />
-    </>
+    </main>
   );
 }
 
