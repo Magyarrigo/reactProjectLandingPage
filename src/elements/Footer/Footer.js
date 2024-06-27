@@ -18,8 +18,17 @@ function Footer() {
             <p className="footerText">Wszystkie prawa zastrzeżone @2023 </p>
           </div>
           <div className="footerContainerMediaIcons">
-            <FontAwesomeIcon icon={faTwitter} color="white" />
-            <FontAwesomeIcon icon={faFacebook} color="white" />
+            <FontAwesomeIcon
+              icon={faTwitter}
+              color="white"
+              className="mediaIcon"
+            />
+
+            <FontAwesomeIcon
+              icon={faFacebook}
+              color="white"
+              className="mediaIcon"
+            />
           </div>
         </div>
       </Container>

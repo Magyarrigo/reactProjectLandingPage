@@ -27,8 +27,11 @@
   font-size: small;
 }
 .footerContainerMediaIcons {
-  width: 100px;
+  width: 200px;
   display: flex;
   justify-content: space-around;
   margin-right: 50px;
+}
+.mediaIcon {
+  font-size: 30px;
 }
